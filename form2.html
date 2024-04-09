@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>アンケート</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <header>アンケート</header>
+    <div class="center"><p>AxiZの研修をご利用いただき、誠にありがとうございます。<br>以下の内容を記入及び送信して頂けると幸いです。</p>
+    <p>会社名&nbsp;<label class="hissu">必須</label></p>
+    <p><input type="text" size="50" name="name" placeholder="例)株式会社テクノコア"></p>
+    <p>お名前&nbsp;<label class="hissu">必須</label></p> 
+    <p><input type="text" size="50"name="name" placeholder="例)てくのこあ"></p>
+    <p>メールアドレス</p>
+    <p><input type="text"size="50" name="name" placeholder="例)example@axiz.co.jp"></p>
+    <p>年齢</p>
+    <input type="text" name="name1">
+    <p>受講コース</p>
+    <p><label><input type="radio" name="gender" checked="male">java</label>
+        <label> <input type="radio" name="gender" value="female">インフラ</label></p>
+    <p>会場</p>
+    <p><select name="会場">
+        <option value="沖縄">沖縄</option>
+        <option value="福岡">福岡</option>
+        <option value="東京">東京</option></select></p>
+    <p>詳しく学びたい内容(複数回答可)</p>
+    <p><label><input type="checkbox" name="test" value="ビジネスマナー" value>ビジネスマナー</label><br>
+        <label> <input type="checkbox" name="test" value="HTML/CSS" value>HTML/CSS</label><br>
+            <label> <input type="checkbox" name="test" value="JavaScript" value>avaScript</label><br>
+                <label> <input type="checkbox" name="test" value="Java" value>Java</label><br>
+                    <label> <input type="checkbox" name="test" value="データベース" value>データベース</label><br>
+                        <label><input type="checkbox" name="test" value="LInux" value>LInux</label><br></p>
+    <p>ご意見</p>
+    <textarea rows="5" cols="50">自由にご記入ください</textarea><br>
+    <button type="submit">送信する</button>
+    </div>
+    <footer>Copyringht(C)Axiz</footer>
+
+
+</body>
+</html>

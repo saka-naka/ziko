@@ -1,0 +1,14 @@
+body {
+    background-image: url(images/bg_Argyle.jpg);
+  }
+h1{
+    padding: 0%;              /* 余白指定 */              
+    text-align:  center;        /* 中央寄せ */
+}
+.center{
+    text-align:  center;
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}

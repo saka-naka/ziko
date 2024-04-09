@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>質問・感想フォーム</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <h1>質問・感想フォーム</h1> 
+  <div class="center"><form action="form.html">
+    <p>氏名</p><p><input type="text" name="name1"></p>
+    <p>性別</p>
+    <p><label><input type="radio" name="gender" value="male">男</label>
+    <label><input type="radio" name="gender" value="female">女</p></label>
+    <p>年齢</p>
+    <p><select name="年齢">
+        <option value="10代">10代</option>
+        <option value="20代">20代</option>
+        <option value="30代">30代</option></select></p>
+    <p>今後見てみたいレシピ</p>
+    <p><label><input type="checkbox" name="test" value="和食" value>和食</label>
+        <label><input type="checkbox" name="test" value="中華" value>中華</label>
+        <label> <input type="checkbox" name="test" value="洋食" value>洋食</label>
+        <label><input type="checkbox" name="test" value="イタリアン" value>イタリアン</label>
+        <label><input type="checkbox" name="test" value="スイーツ" value>スイーツ</label>
+        <label> <input type="checkbox" name="test" value="その他" value>その他</label>
+    </p>
+    <p>自由コメント欄</p>
+    <textarea rows="5" cols="40">自由に記述してください</textarea><br>
+ <button type="submit">送信</button>
+ <button type="reset">リセット</button></div>
+  </form>  
+</body>
+</html>

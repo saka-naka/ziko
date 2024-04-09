@@ -1,0 +1,37 @@
+body {
+    background-image: url(images/bg_Argyle.jpg);
+  }
+.center{
+    padding: 0%;              /* 余白指定 */              
+    text-align:  center;        /* 中央寄せ */
+}
+.sita{
+    position: fixed;
+  bottom: 400px;
+  left: 10px;
+}
+.curry {
+    border: 9px double  red;
+}
+.coller{
+    color: red;
+}
+table {
+    background-color: #FFFFCC ;
+    }
+table {
+    border-color: #fc0606;
+     }
+     .flex {
+        display: flex; /*横並び*/
+      }
+      .flex .image {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+      }
+      .flex .text {
+        margin: 0 0 0 20px;
+        padding: 0;
+      }

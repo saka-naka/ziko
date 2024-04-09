@@ -1,0 +1,19 @@
+body {
+    background-color:#aaffff ;
+}
+.center{
+    background: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+header{
+    text-align:  center;
+}
+footer{
+    text-align:  center;
+}
+.hissu{
+    background-color: red;
+    color: white;
+}
